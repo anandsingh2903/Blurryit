@@ -1,6 +1,8 @@
-Add it in your project :
+<b>Add it in your project :</b>
 
-STEP ! : Add it in your root build.gradle at the end of repositories
+<b>STEP 1 :</b> 
+
+Add it in your root build.gradle at the end of repositories
 
 allprojects {
 		repositories {
@@ -9,9 +11,10 @@ allprojects {
 		}
 	}
   
+  
   STEP 2 : Add the dependency
-
-dependencies {
-	        implementation 'com.github.anandsingh2903:Blurryit:Tag'
-}
+  
+  dependencies {
+	        implementation 'com.github.anandsingh2903:Blurryit:v1.0'
+	}
 
