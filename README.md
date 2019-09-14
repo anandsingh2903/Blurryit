@@ -1,20 +1,22 @@
-<b>Add it in your project :</b>
+#Add it in your project :**
 
-<b>STEP 1 :</b> 
+**STEP 1 :**
 
-Add it in your root build.gradle at the end of repositories
+##Add it in your root build.gradle at the end of repositories
 
+'
 allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
-  
-  STEP 2 : Add the dependency
-  
-  dependencies {
+'  
+**STEP 2 :** 
+
+##Add the dependency
+'  
+dependencies {
 	        implementation 'com.github.anandsingh2903:Blurryit:v1.0'
 	}
-
+'
